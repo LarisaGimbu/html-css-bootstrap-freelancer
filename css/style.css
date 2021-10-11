@@ -7,7 +7,7 @@ header{
 }
 
 .jumbotron, .about{
-  height: 30vh;
+  height: 40vh;
 }
 
 .top-main{
@@ -29,4 +29,16 @@ header{
 
 .contact-me ul li:last-child{
   border-bottom: none;
+}
+
+.footer-top, .footer-bottom{
+  color: white;
+}
+
+.footer-top{
+  background-color: #3A546D;
+}
+
+.footer-bottom{
+  background-color: #2C3E50;
 }

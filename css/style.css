@@ -2,9 +2,9 @@ header{
   background-color: #2C3E50;
 }
 
-.jumbotron{
+.jumbotron, .about{
   background-color: #1ABC9C;
-  height: 50vh;
+  height: 30vh;
 }
 
 .top-main{

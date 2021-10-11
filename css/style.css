@@ -2,12 +2,31 @@ header{
   background-color: #2C3E50;
 }
 
-.jumbotron, .about{
+.jumbotron, .about, .btn{
   background-color: #1ABC9C;
+}
+
+.jumbotron, .about{
   height: 30vh;
 }
 
 .top-main{
   min-height: 200px;
   border-radius: 15px
+}
+
+.contact-me ul{
+  list-style: none;
+}
+.contact-me ul li{
+  border-bottom: 1px solid grey;
+}
+
+.btn{
+  color: white;
+  width: 50px;
+}
+
+.contact-me ul li:last-child{
+  border-bottom: none;
 }

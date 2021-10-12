@@ -1,13 +1,36 @@
-header{
+header, .footer-bottom{
   background-color: #2C3E50;
 }
 
-.jumbotron, .about, .btn{
+header{
+  height: 80px;
+}
+
+.lg-jumbotron, .about, .btn{
   background-color: #1ABC9C;
 }
 
-.jumbotron{
-  height: 40vh;
+.lg-jumbotron{
+  margin-top: 80px;
+}
+
+.lg-py-50{
+  padding: 50px 0;
+}
+
+.lg-container-60{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.lg-inner-jumbo{
+  background-color: blue;
+  width: 800px;
+  max-width: 80%;
+  margin: 0 auto;
+
+  /* height-placeholder */
+  height: 300px;
 }
 
 .top-main{
@@ -37,8 +60,4 @@ header{
 
 .footer-top{
   background-color: #3A546D;
-}
-
-.footer-bottom{
-  background-color: #2C3E50;
 }

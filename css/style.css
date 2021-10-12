@@ -78,12 +78,13 @@ header .fa-bars:hover, header ul li a:hover{
   background-color: white;
 }
 
-.portfolio .lg-line{
+/* PORTFOLIO  */
+.portfolio .lg-line, .contact-me .lg-line{
   height: 2px;
   background-color: #2C3E50;
 }
 
-.portfolio .fa-star{
+.portfolio .fa-star, .contact-me .fa-star{
   color: #2C3E50;
 }
 
@@ -99,20 +100,22 @@ header .fa-bars:hover, header ul li a:hover{
   font-size: 12px;
 }
 
-.contact-me ul{
-  list-style: none;
+/* CONTACT-ME  */
+form{
+  padding-top: 10px;
 }
-.contact-me ul li{
-  border-bottom: 1px solid grey;
+
+.dt-custom-border{
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  border-radius: 0;
 }
 
 .btn{
   color: white;
   width: 50px;
-}
-
-.contact-me ul li:last-child{
-  border-bottom: none;
+  padding: 3px;
+  font-size: 12px;
 }
 
 .footer-top, .footer-bottom{

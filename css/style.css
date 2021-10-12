@@ -1,3 +1,4 @@
+/* UTILITY */
 .lg-py-50{
   padding: 50px 0;
 }
@@ -7,6 +8,7 @@
   margin: 0 auto;
 }
 
+/* HEADER  */
 header, .footer-bottom{
   background-color: #2C3E50;
 }
@@ -49,6 +51,7 @@ header .fa-bars:hover, header ul li a:hover{
   cursor: pointer;
 }
 
+/* JUMBOTRON  */
 .lg-jumbotron, .about, .btn{
   background-color: #1ABC9C;
 }
@@ -72,8 +75,17 @@ header .fa-bars:hover, header ul li a:hover{
   background-color: white;
 }
 
-.top-main{
-  min-height: 200px;
+.portfolio .lg-line{
+  height: 2px;
+  background-color: #2C3E50;
+}
+
+.portfolio .fa-star{
+  color: #2C3E50;
+}
+
+.portfolio img{
+  width: 100%;
   border-radius: 15px
 }
 

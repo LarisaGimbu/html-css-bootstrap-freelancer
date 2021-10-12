@@ -56,9 +56,12 @@ header .fa-bars:hover, header ul li a:hover{
   background-color: #1ABC9C;
 }
 
+.lg-jumbotron, .about{
+  color: white;
+}
+
 .lg-jumbotron{
   margin-top: 80px;
-  color: white;
 }
 
 .lg-inner-jumbo img{
@@ -70,7 +73,7 @@ header .fa-bars:hover, header ul li a:hover{
   margin: 0 auto;
 }
 
-.lg-inner-jumbo .lg-line{
+.lg-line{
   height: 2px;
   background-color: white;
 }
@@ -87,6 +90,13 @@ header .fa-bars:hover, header ul li a:hover{
 .portfolio img{
   width: 100%;
   border-radius: 15px
+}
+
+/* ABOUT  */
+.about .lg-btn{
+  width: 90px;
+  padding: 3px;
+  font-size: 12px;
 }
 
 .contact-me ul{
